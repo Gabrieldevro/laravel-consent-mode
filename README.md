@@ -5,7 +5,7 @@
 
 <p align="center">
 <img alt="tests" src="https://github.com/Gabrieldevro/laravel-consent-mode/actions/workflows/tests.yml/badge.svg">
-<img alt="Laravel" src="https://img.shields.io/badge/Laravel-11%20%7C%2012-FF2D20?style=flat-square&amp;logo=laravel&amp;logoColor=white">
+<img alt="Laravel" src="https://img.shields.io/badge/Laravel-12-FF2D20?style=flat-square&amp;logo=laravel&amp;logoColor=white">
 <img alt="Consent Mode" src="https://img.shields.io/badge/Google-Consent%20Mode%20v2-4285F4?style=flat-square&amp;logo=google&amp;logoColor=white">
 <img alt="License" src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
 </p>
