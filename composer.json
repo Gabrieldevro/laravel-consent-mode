@@ -1,0 +1,31 @@
+{
+    "name": "gabrieldevro/laravel-consent-mode",
+    "description": "GDPR cookie banner for Laravel with Google Consent Mode v2: denied by default, applied before any Google tag.",
+    "keywords": ["laravel", "gdpr", "cookie", "consent", "consent-mode", "google-analytics", "blade"],
+    "license": "MIT",
+    "authors": [
+        { "name": "Gabriel Conolache", "email": "contact@gabrieldev.eu", "homepage": "https://gabrieldev.eu" }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/view": "^11.0|^12.0",
+        "illuminate/http": "^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": { "Gabrieldev\\ConsentMode\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Gabrieldev\\ConsentMode\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "laravel": { "providers": ["Gabrieldev\\ConsentMode\\ConsentModeServiceProvider"] }
+    },
+    "scripts": { "test": "phpunit" },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
